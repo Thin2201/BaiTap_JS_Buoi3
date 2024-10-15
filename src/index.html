@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai Tap JS</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center justify-center mx-auto p-20">
+        <h3 class="text-center text-red-500 text-3xl font-medium mb-10">
+          Bài Tập Kiểm Tra Chẵn Lẻ
+        </h3>
+        <input
+          type="text"
+          placeholder="Nhap mot so"
+          class="border rounded-lg"
+          id="number"
+        />
+
+        <button
+          id="kTra"
+          type="submit"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Kiểm tra
+        </button>
+        <div id="result"></div>
+      </div>
+      <div class="text-center justify-center mx-auto p-20">
+        <h3 class="text-center text-red-500 text-3xl font-medium mb-10">
+          Bài Tập Xét Thưởng Nhân Viên
+        </h3>
+        <input
+          type="text"
+          placeholder="Nhap so don hang"
+          class="border rounded-lg"
+          id="numberDH"
+        />
+        <input
+          type="text"
+          placeholder="Nhap tong doanh so"
+          class="border rounded-lg"
+          id="numberDS"
+        />
+
+        <button
+          id="XetThuong"
+          type="submit"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Kiểm tra
+        </button>
+        <div id="resultThuong"></div>
+      </div>
+
+      <div class="text-center justify-center mx-auto p-20">
+        <h3 class="text-center text-red-500 text-3xl font-medium mb-10">
+          Bài Tập Chiết Khấu
+        </h3>
+        <input
+          type="text"
+          placeholder="Nhập số tiền của đơn hàng"
+          class="border rounded-lg"
+          id="numberGiaTien"
+        />
+
+        <button
+          id="ChietKhau"
+          type="submit"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Kiểm tra
+        </button>
+        <div id="resultChietKhau"></div>
+        <div id="resulTongBill"></div>
+      </div>
+
+      <div class="text-center justify-center mx-auto p-20">
+        <h3 class="text-center text-red-500 text-3xl font-medium mb-10">
+          Kiểm tra độ mạnh yếu của mật khẩu
+        </h3>
+        <input
+          type="text"
+          placeholder="Nhập mật khẩu của bạn"
+          class="border rounded-lg"
+          id="pass"
+        />
+
+        <button
+          id="kiemTraPass"
+          type="submit"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Kiểm tra
+        </button>
+        <div id="resultPass"></div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
